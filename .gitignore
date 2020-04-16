@@ -19,3 +19,10 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+#Electron-builder output
+/dist_electron
+# Cordova
+/src-cordova/platforms
+/src-cordova/plugins
+/public/cordova.js

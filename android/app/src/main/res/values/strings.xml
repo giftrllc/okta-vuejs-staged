@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">okta-test-vuetify</string>
+    <string name="title_activity_main">okta-test-vuetify</string>
+    <string name="package_name">org.vue.myApp</string>
+    <string name="custom_url_scheme">org.vue.myApp</string>
+</resources>
