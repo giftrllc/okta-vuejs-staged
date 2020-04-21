@@ -22,23 +22,21 @@ import MessagesComponent from '@/components/Messages'
 
 Vue.use(Router)
 
-//Vue.use(Auth, {
-//  issuer: 'https://adobe-stage.okta.com/oauth2/aus1exw340qLpDruL1d8/v1/authorize',
-//  client_id: '0oa1gnsv4utZguCOV1d8',
-//  redirect_uri: 'http://localhost:8080/login',
-//  response_type: 'code',
-//  scope: 'openid+profile',
-//  state: 'das',
-//  pkce: true
-//})
-
 Vue.use(Auth, {
-  issuer: 'https://kmcmh.okta.com/oauth2/default',
-  clientId: '0oa95b4388N3mmjCs4x6',
-  redirectUri: 'http://localhost:8080/implicit/callback',
-  scopes: ['openid', 'profile', 'email'],
-  pkce: true
+ issuer: 'https://adobe-stage.okta.com/oauth2/aus1exw340qLpDruL1d8',
+ clientId: '0oa1gtzblujJN7LMX1d8',
+ redirectUri: 'http://localhost:8080/implicit/callback',
+ scopes: ['openid', 'profile', 'email'],
+ pkce: true
 })
+
+// Vue.use(Auth, {
+//   issuer: 'https://kmcmh.okta.com/oauth2/default',
+//   clientId: '0oa95b4388N3mmjCs4x6',
+//   redirectUri: 'http://localhost:8080/implicit/callback',
+//   scopes: ['openid', 'profile', 'email'],
+//   pkce: true
+// })
 
 
 const router = new Router({
