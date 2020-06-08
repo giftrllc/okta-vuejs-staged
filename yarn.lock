@@ -835,6 +835,30 @@
   resolved "https://registry.npm.taobao.org/@capacitor/ios/download/@capacitor/ios-2.0.1.tgz#1f1cd3736dcf00373e3303d89a0164f2f168d24e"
   integrity sha1-HxzTc23PADc+MwPYmgFk8vFo0k4=
 
+"@cfware/activity-monitor@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@cfware/activity-monitor/-/activity-monitor-0.1.4.tgz#60ed6b68748e07fbd011160cd18df6299f8e68db"
+  integrity sha512-zhWzkjRX4WZ3WJinBb9HyhQPH0+GdU9i16TvzLyyIk0HBeRoOlyHHQxvsIATgYsmDjdbZ7W8KB3QEd3TGtQ06A==
+  dependencies:
+    "@cfware/add-event-listener" "^0.1.2"
+    "@cfware/callback-array-once" "^1.0.3"
+    "@cfware/cleanable-interval" "^0.1.2"
+
+"@cfware/add-event-listener@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@cfware/add-event-listener/-/add-event-listener-0.1.2.tgz#03bdc9c564e1584c32c9fea9b70fd7894dcad7ed"
+  integrity sha512-ceuUPfehvj2OK+gJGqeN3BtmAITNmJMau/XCIRSTgJMuBpqrWhc2aOONUkzjlyut5lWG0QYMMw0ydlAdH+bPnQ==
+
+"@cfware/callback-array-once@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@cfware/callback-array-once/-/callback-array-once-1.0.3.tgz#05ec13f71e6b22a2930958a37774fd8625eb3390"
+  integrity sha512-ewZzHW3PzhQYiyw0813d/kQI0cpkxJeKxWR5NIwMIo+xG1TCWFEsfAQzAJ/gG+BEYczqMFTol4a9XciAxZ1FzA==
+
+"@cfware/cleanable-interval@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@cfware/cleanable-interval/-/cleanable-interval-0.1.2.tgz#19b637b6b6b2a5faaa0a3f3a8d0e433982afbb52"
+  integrity sha512-bGOL7fAx2jn9RfliI8btfEAERubgUQF712Vz1d7rksW51e256iyPyWrLOL6zqk5WLwwl/cTh6vlQNTM6pEZuNA==
+
 "@develar/schema-utils@~2.1.0":
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/@develar/schema-utils/download/@develar/schema-utils-2.1.0.tgz?cache=0&sync_timestamp=1583924194143&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40develar%2Fschema-utils%2Fdownload%2F%40develar%2Fschema-utils-2.1.0.tgz#eceb1695bfbed6f6bb84666d5d3abe5e1fd54e17"
@@ -10785,9 +10809,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.npm.taobao.org/websocket-extensions/download/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha1-XS/yKXcAPsaHpLhwc9+7rBRszyk=
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 wgxpath@~1.0.0:
   version "1.0.0"
