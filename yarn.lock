@@ -835,6 +835,30 @@
   resolved "https://registry.npm.taobao.org/@capacitor/ios/download/@capacitor/ios-2.0.1.tgz#1f1cd3736dcf00373e3303d89a0164f2f168d24e"
   integrity sha1-HxzTc23PADc+MwPYmgFk8vFo0k4=
 
+"@cfware/activity-monitor@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@cfware/activity-monitor/-/activity-monitor-0.1.4.tgz#60ed6b68748e07fbd011160cd18df6299f8e68db"
+  integrity sha512-zhWzkjRX4WZ3WJinBb9HyhQPH0+GdU9i16TvzLyyIk0HBeRoOlyHHQxvsIATgYsmDjdbZ7W8KB3QEd3TGtQ06A==
+  dependencies:
+    "@cfware/add-event-listener" "^0.1.2"
+    "@cfware/callback-array-once" "^1.0.3"
+    "@cfware/cleanable-interval" "^0.1.2"
+
+"@cfware/add-event-listener@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@cfware/add-event-listener/-/add-event-listener-0.1.2.tgz#03bdc9c564e1584c32c9fea9b70fd7894dcad7ed"
+  integrity sha512-ceuUPfehvj2OK+gJGqeN3BtmAITNmJMau/XCIRSTgJMuBpqrWhc2aOONUkzjlyut5lWG0QYMMw0ydlAdH+bPnQ==
+
+"@cfware/callback-array-once@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@cfware/callback-array-once/-/callback-array-once-1.0.3.tgz#05ec13f71e6b22a2930958a37774fd8625eb3390"
+  integrity sha512-ewZzHW3PzhQYiyw0813d/kQI0cpkxJeKxWR5NIwMIo+xG1TCWFEsfAQzAJ/gG+BEYczqMFTol4a9XciAxZ1FzA==
+
+"@cfware/cleanable-interval@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@cfware/cleanable-interval/-/cleanable-interval-0.1.2.tgz#19b637b6b6b2a5faaa0a3f3a8d0e433982afbb52"
+  integrity sha512-bGOL7fAx2jn9RfliI8btfEAERubgUQF712Vz1d7rksW51e256iyPyWrLOL6zqk5WLwwl/cTh6vlQNTM6pEZuNA==
+
 "@develar/schema-utils@~2.1.0":
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/@develar/schema-utils/download/@develar/schema-utils-2.1.0.tgz?cache=0&sync_timestamp=1583924194143&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40develar%2Fschema-utils%2Fdownload%2F%40develar%2Fschema-utils-2.1.0.tgz#eceb1695bfbed6f6bb84666d5d3abe5e1fd54e17"
@@ -4183,9 +4207,9 @@ event-pubsub@4.3.0:
   integrity sha1-9o2Ba8KfHsAsU53FjI3UDOcss24=
 
 eventemitter3@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/eventemitter3/download/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
-  integrity sha1-1lF2FjiH7lnzhtZMgmELaWpKdOs=
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.1.0"
@@ -4659,11 +4683,9 @@ follow-redirects@1.5.10:
     debug "=3.1.0"
 
 follow-redirects@^1.0.0:
-  version "1.11.0"
-  resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.11.0.tgz#afa14f08ba12a52963140fe43212658897bc0ecb"
-  integrity sha1-r6FPCLoSpSljFA/kMhJliJe8Dss=
-  dependencies:
-    debug "^3.0.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -5403,9 +5425,9 @@ http-proxy-middleware@0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.18.0"
-  resolved "https://registry.npm.taobao.org/http-proxy/download/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
-  integrity sha1-2+VfY+daNH2389mZdPJpKjFKajo=
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
@@ -8716,7 +8738,7 @@ require-main-filename@^2.0.0:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 resolve-cwd@^2.0.0:
