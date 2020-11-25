@@ -835,6 +835,30 @@
   resolved "https://registry.npm.taobao.org/@capacitor/ios/download/@capacitor/ios-2.0.1.tgz#1f1cd3736dcf00373e3303d89a0164f2f168d24e"
   integrity sha1-HxzTc23PADc+MwPYmgFk8vFo0k4=
 
+"@cfware/activity-monitor@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@cfware/activity-monitor/-/activity-monitor-0.1.4.tgz#60ed6b68748e07fbd011160cd18df6299f8e68db"
+  integrity sha512-zhWzkjRX4WZ3WJinBb9HyhQPH0+GdU9i16TvzLyyIk0HBeRoOlyHHQxvsIATgYsmDjdbZ7W8KB3QEd3TGtQ06A==
+  dependencies:
+    "@cfware/add-event-listener" "^0.1.2"
+    "@cfware/callback-array-once" "^1.0.3"
+    "@cfware/cleanable-interval" "^0.1.2"
+
+"@cfware/add-event-listener@^0.1.2":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@cfware/add-event-listener/-/add-event-listener-0.1.3.tgz#2950beb95b2729e7cc621447e7059c63430c89a4"
+  integrity sha512-dm0c1TT+Bjqu2zt60FhpjKzclXniAc/7SdxH3QOthYunpcxjKlFqbkzqc44yaVQl5b7hTQHwHI2sUXuBeKRyhA==
+
+"@cfware/callback-array-once@^1.0.3":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@cfware/callback-array-once/-/callback-array-once-1.0.4.tgz#2d16e5f484a77f6d0d8e7e7945448d76f03280bf"
+  integrity sha512-eF+DM50j19cwgC9sGzAMTua4sApPbzWxqSmBpwDnjPVfhf8YXE+EEj+ufbe7VlPlPx90bfN/1cvF2W3PkWZksA==
+
+"@cfware/cleanable-interval@^0.1.2":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@cfware/cleanable-interval/-/cleanable-interval-0.1.3.tgz#32f115e21ab158a71f9d97831424727e3a97ea98"
+  integrity sha512-HpaxOybcSFXxFoxs+zetsPcWlqAikH73wPsoyTHhb8/8KtMzWFGeosoicrrMtcGJnBncK2FGOb9LSl1NZm4O+Q==
+
 "@develar/schema-utils@~2.1.0":
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/@develar/schema-utils/download/@develar/schema-utils-2.1.0.tgz?cache=0&sync_timestamp=1583924194143&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40develar%2Fschema-utils%2Fdownload%2F%40develar%2Fschema-utils-2.1.0.tgz#eceb1695bfbed6f6bb84666d5d3abe5e1fd54e17"
@@ -5233,9 +5257,9 @@ hex-color-regex@^1.1.0:
   integrity sha1-TAb8y0YC/iYCs8k9+C1+fb8aio4=
 
 highlight.js@^9.6.0:
-  version "9.18.1"
-  resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
-  integrity sha1-7SGqAB/mJSuxCj121HVzxlOf4Tw=
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
