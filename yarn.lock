@@ -835,6 +835,30 @@
   resolved "https://registry.npm.taobao.org/@capacitor/ios/download/@capacitor/ios-2.0.1.tgz#1f1cd3736dcf00373e3303d89a0164f2f168d24e"
   integrity sha1-HxzTc23PADc+MwPYmgFk8vFo0k4=
 
+"@cfware/activity-monitor@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@cfware/activity-monitor/-/activity-monitor-0.1.4.tgz#60ed6b68748e07fbd011160cd18df6299f8e68db"
+  integrity sha512-zhWzkjRX4WZ3WJinBb9HyhQPH0+GdU9i16TvzLyyIk0HBeRoOlyHHQxvsIATgYsmDjdbZ7W8KB3QEd3TGtQ06A==
+  dependencies:
+    "@cfware/add-event-listener" "^0.1.2"
+    "@cfware/callback-array-once" "^1.0.3"
+    "@cfware/cleanable-interval" "^0.1.2"
+
+"@cfware/add-event-listener@^0.1.2":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@cfware/add-event-listener/-/add-event-listener-0.1.4.tgz#a7b34062e1bc397cfe529e49981d61b4f67c6343"
+  integrity sha512-qbSSzwea4n0i69v1TMCKyPwlPN65J3cC04405cERyXyzj44Wl7tgMYT/ngDX6qA1CNz2e/wqePrhPEdy4iwe+g==
+
+"@cfware/callback-array-once@^1.0.3":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@cfware/callback-array-once/-/callback-array-once-1.0.4.tgz#2d16e5f484a77f6d0d8e7e7945448d76f03280bf"
+  integrity sha512-eF+DM50j19cwgC9sGzAMTua4sApPbzWxqSmBpwDnjPVfhf8YXE+EEj+ufbe7VlPlPx90bfN/1cvF2W3PkWZksA==
+
+"@cfware/cleanable-interval@^0.1.2":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@cfware/cleanable-interval/-/cleanable-interval-0.1.3.tgz#32f115e21ab158a71f9d97831424727e3a97ea98"
+  integrity sha512-HpaxOybcSFXxFoxs+zetsPcWlqAikH73wPsoyTHhb8/8KtMzWFGeosoicrrMtcGJnBncK2FGOb9LSl1NZm4O+Q==
+
 "@develar/schema-utils@~2.1.0":
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/@develar/schema-utils/download/@develar/schema-utils-2.1.0.tgz?cache=0&sync_timestamp=1583924194143&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40develar%2Fschema-utils%2Fdownload%2F%40develar%2Fschema-utils-2.1.0.tgz#eceb1695bfbed6f6bb84666d5d3abe5e1fd54e17"
@@ -8348,9 +8372,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.npm.taobao.org/querystringify/download/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha1-YOWl/WSn+L+k0qsu1v30yFutFU4=
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -8716,7 +8740,7 @@ require-main-filename@^2.0.0:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 resolve-cwd@^2.0.0:
@@ -10286,9 +10310,9 @@ url-parse-lax@^3.0.0:
     prepend-http "^2.0.0"
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.npm.taobao.org/url-parse/download/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha1-qKg1NejACjFuQDpdtKwbm4U64ng=
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.7.tgz#00780f60dbdae90181f51ed85fb24109422c932a"
+  integrity sha512-HxWkieX+STA38EDk7CE9MEryFeHCKzgagxlGvsdS7WBImq9Mk+PGwiT56w82WI3aicwJA8REp42Cxo98c8FZMA==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
