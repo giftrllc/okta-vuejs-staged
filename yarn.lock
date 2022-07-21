@@ -835,6 +835,30 @@
   resolved "https://registry.npm.taobao.org/@capacitor/ios/download/@capacitor/ios-2.0.1.tgz#1f1cd3736dcf00373e3303d89a0164f2f168d24e"
   integrity sha1-HxzTc23PADc+MwPYmgFk8vFo0k4=
 
+"@cfware/activity-monitor@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@cfware/activity-monitor/-/activity-monitor-0.1.4.tgz#60ed6b68748e07fbd011160cd18df6299f8e68db"
+  integrity sha512-zhWzkjRX4WZ3WJinBb9HyhQPH0+GdU9i16TvzLyyIk0HBeRoOlyHHQxvsIATgYsmDjdbZ7W8KB3QEd3TGtQ06A==
+  dependencies:
+    "@cfware/add-event-listener" "^0.1.2"
+    "@cfware/callback-array-once" "^1.0.3"
+    "@cfware/cleanable-interval" "^0.1.2"
+
+"@cfware/add-event-listener@^0.1.2":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@cfware/add-event-listener/-/add-event-listener-0.1.4.tgz#a7b34062e1bc397cfe529e49981d61b4f67c6343"
+  integrity sha512-qbSSzwea4n0i69v1TMCKyPwlPN65J3cC04405cERyXyzj44Wl7tgMYT/ngDX6qA1CNz2e/wqePrhPEdy4iwe+g==
+
+"@cfware/callback-array-once@^1.0.3":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@cfware/callback-array-once/-/callback-array-once-1.0.4.tgz#2d16e5f484a77f6d0d8e7e7945448d76f03280bf"
+  integrity sha512-eF+DM50j19cwgC9sGzAMTua4sApPbzWxqSmBpwDnjPVfhf8YXE+EEj+ufbe7VlPlPx90bfN/1cvF2W3PkWZksA==
+
+"@cfware/cleanable-interval@^0.1.2":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@cfware/cleanable-interval/-/cleanable-interval-0.1.3.tgz#32f115e21ab158a71f9d97831424727e3a97ea98"
+  integrity sha512-HpaxOybcSFXxFoxs+zetsPcWlqAikH73wPsoyTHhb8/8KtMzWFGeosoicrrMtcGJnBncK2FGOb9LSl1NZm4O+Q==
+
 "@develar/schema-utils@~2.1.0":
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/@develar/schema-utils/download/@develar/schema-utils-2.1.0.tgz?cache=0&sync_timestamp=1583924194143&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40develar%2Fschema-utils%2Fdownload%2F%40develar%2Fschema-utils-2.1.0.tgz#eceb1695bfbed6f6bb84666d5d3abe5e1fd54e17"
@@ -2263,9 +2287,9 @@ buffer-fill@^1.0.0:
   integrity sha1-+PeLdniYiO858gXNY39o5wISKyw=
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.npm.taobao.org/buffer-from/download/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha1-MnE7wCj3XAL9txDXx7zsHyxgcO8=
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -9238,9 +9262,9 @@ source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
     urix "^0.1.0"
 
 source-map-support@^0.5.13, source-map-support@~0.5.12:
-  version "0.5.16"
-  resolved "https://registry.npm.taobao.org/source-map-support/download/source-map-support-0.5.16.tgz#0ae069e7fe3ba7538c64c98515e35339eac5a042"
-  integrity sha1-CuBp5/47p1OMZMmFFeNTOerFoEI=
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -9801,9 +9825,9 @@ terser-webpack-plugin@^2.3.5:
     webpack-sources "^1.4.3"
 
 terser@^4.1.2, terser@^4.4.3:
-  version "4.6.11"
-  resolved "https://registry.npm.taobao.org/terser/download/terser-4.6.11.tgz#12ff99fdd62a26de2a82f508515407eb6ccd8a9f"
-  integrity sha1-Ev+Z/dYqJt4qgvUIUVQH62zNip8=
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
